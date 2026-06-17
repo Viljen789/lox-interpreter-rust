@@ -67,6 +67,11 @@ the code _Crafting Interpreters_ uses for scan/parse errors, and the tests asser
 on it. A successful run exits `0`.
 </details>
 
+## 📖 Where to look
+
+- _Crafting Interpreters_ — [§4.5.1 Lexical errors](https://craftinginterpreters.com/scanning.html#lexical-errors)
+  (report the bad character, keep scanning, fail at the end).
+
 ## Reflection
 
 - Reporting *all* errors instead of stopping at the first is a deliberate UX

@@ -41,6 +41,11 @@ deal with it (it'll matter for line counting in stage 11). With a `Peekable`,
 that's a `while let Some(&c) = chars.peek()` loop that breaks on `'\n'`.
 </details>
 
+## 📖 Where to look
+
+- _Crafting Interpreters_ — [§4.6 Longer Lexemes](https://craftinginterpreters.com/scanning.html#longer-lexemes)
+  (the `/` vs `//`-comment case, using `peek()`).
+
 ## Reflection
 
 - A comment is the first thing your scanner *recognizes but does not emit*.

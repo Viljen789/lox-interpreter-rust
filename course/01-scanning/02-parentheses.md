@@ -43,6 +43,11 @@ stage 1 printed EOF. (Later, around the parser, you'll want to *collect* tokens
 into a `Vec` instead of printing them — but don't worry about that yet.)
 </details>
 
+## 📖 Where to look
+
+- _Crafting Interpreters_ — [§4.5 Recognizing Lexemes](https://craftinginterpreters.com/scanning.html#recognizing-lexemes)
+  (the `scanToken` switch — your `match` over the current character).
+
 ## Reflection
 
 - `(` and `)` are decided by looking at a single character. Which tokens do you

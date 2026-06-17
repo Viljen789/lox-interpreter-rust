@@ -49,6 +49,11 @@ it toward your line number (from stage 11) before pushing it. Not all tests
 exercise this, but it's correct behavior and cheap to get right.
 </details>
 
+## 📖 Where to look
+
+- _Crafting Interpreters_ — [§4.6.1 String literals](https://craftinginterpreters.com/scanning.html#string-literals)
+  (consume to the closing quote; unterminated is an error).
+
 ## Reflection
 
 - For operators, the token's *type* told you everything. For a string, two

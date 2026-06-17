@@ -48,6 +48,12 @@ be reported as line 2, which means the newline ending line 1 was already counted
 Start the counter at `1`, not `0`.
 </details>
 
+## 📖 Where to look
+
+- _Crafting Interpreters_ — [§4.6 Longer Lexemes](https://craftinginterpreters.com/scanning.html#longer-lexemes)
+  (incrementing `line` on newlines) and [§4.2.3 Location information](https://craftinginterpreters.com/scanning.html#location-information)
+  (why a token carries its line number).
+
 ## Reflection
 
 - Right now the line number is used only for error messages and then forgotten.

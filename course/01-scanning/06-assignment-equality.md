@@ -47,6 +47,11 @@ next char matches `x`, consume it and return true" — will make those stages
 trivial. Worth writing now.
 </details>
 
+## 📖 Where to look
+
+- _Crafting Interpreters_ — [§4.5.2 Operators](https://craftinginterpreters.com/scanning.html#operators)
+  (two-character operators and the `match()` helper for one-char lookahead).
+
 ## Reflection
 
 - `EQUAL_EQUAL`'s lexeme is `==` (two chars) but it came from two separate

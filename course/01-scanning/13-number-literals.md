@@ -51,6 +51,12 @@ exactly this — it always includes a decimal point. Try it: `format!("{:?}", 42
 gives `"42.0"`. (Plain `{}` / Display gives `"42"`, which is *wrong* here.)
 </details>
 
+## 📖 Where to look
+
+- _Crafting Interpreters_ — [§4.6.2 Number literals](https://craftinginterpreters.com/scanning.html#number-literals)
+  (note the two characters of lookahead — `peek()` and `peekNext()` — for the
+  fractional part).
+
 ## Reflection
 
 - Why does Lox use a single float type for all numbers instead of separate ints

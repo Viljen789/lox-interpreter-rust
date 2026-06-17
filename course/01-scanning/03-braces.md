@@ -33,6 +33,10 @@ EOF  null
 two more arms to your `match`.
 </details>
 
+## 📖 Where to look
+
+- _Crafting Interpreters_ — [§4.5 Recognizing Lexemes](https://craftinginterpreters.com/scanning.html#recognizing-lexemes).
+
 ## Reflection
 
 - If adding a token now means editing one `match` and one `Display`/print site,

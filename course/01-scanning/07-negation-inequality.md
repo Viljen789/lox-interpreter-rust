@@ -35,6 +35,11 @@ logic, that's the signal to extract the helper from stage 6's hint 2 and call it
 here with the target char `'='`.
 </details>
 
+## 📖 Where to look
+
+- _Crafting Interpreters_ — [§4.5.2 Operators](https://craftinginterpreters.com/scanning.html#operators)
+  (same `match()` helper, now for `!`/`!=`).
+
 ## Reflection
 
 - `!=` and `==` both end in `=`. Your scanner peeked at the `=` *after* the first

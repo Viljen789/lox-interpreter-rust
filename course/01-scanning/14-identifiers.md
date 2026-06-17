@@ -40,6 +40,10 @@ For the inner loop deciding where the word ends, `c.is_alphanumeric() || c == '_
 is the clean predicate.
 </details>
 
+## 📖 Where to look
+
+- _Crafting Interpreters_ — [§4.7 Reserved Words and Identifiers](https://craftinginterpreters.com/scanning.html#reserved-words-and-identifiers).
+
 ## Reflection
 
 - The scanner can't know whether `foo` is a variable, a function, or undefined —

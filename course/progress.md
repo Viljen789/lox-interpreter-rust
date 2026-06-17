@@ -2,7 +2,8 @@
 
 Tick a box when `./test.sh` shows the stage green. Your **current stage** is the
 first unchecked one (the harness finds it for you). Docs and tests for a chapter
-are added as you reach it — Chapter 1 is fully available now.
+are added as you reach it — Chapters 1 and 2 are fully available now (Chapter 3
+has an overview to read ahead).
 
 > Status legend: `[ ]` todo · `[x]` passing · 🟢 = docs + tests available now
 
@@ -28,7 +29,7 @@ Book: [Scanning](https://craftinginterpreters.com/scanning.html).
 - [ ] 14 · Identifiers
 - [ ] 15 · Reserved words
 
-## Chapter 2 — Parsing Expressions
+## Chapter 2 — Parsing Expressions 🟢
 Tokens → an Abstract Syntax Tree; print it in parenthesized form. Command: `parse`.
 Book: [Representing Code](https://craftinginterpreters.com/representing-code.html),
 [Parsing Expressions](https://craftinginterpreters.com/parsing-expressions.html).

@@ -49,6 +49,11 @@ that thought — but don't over-engineer a scanner this small. Clarity beats
 cleverness here.
 </details>
 
+## 📖 Where to look
+
+- _Crafting Interpreters_ — [§4.5 Recognizing Lexemes](https://craftinginterpreters.com/scanning.html#recognizing-lexemes)
+  (all the single-character lexemes in one switch).
+
 ## Reflection
 
 - The token *type* (`STAR`) and the *lexeme* (`*`) are different things that

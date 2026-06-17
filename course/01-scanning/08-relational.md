@@ -35,6 +35,10 @@ staying clean. Stage 9's `/` is the last operator needing lookahead, and it's a
 bit different.
 </details>
 
+## 📖 Where to look
+
+- _Crafting Interpreters_ — [§4.5.2 Operators](https://craftinginterpreters.com/scanning.html#operators).
+
 ## Reflection
 
 - You now have a `match` arm per operator. Roughly how many distinct token types

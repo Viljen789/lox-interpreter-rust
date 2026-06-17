@@ -55,6 +55,11 @@ straightforward approach and reads clearly. (A `HashMap` also works but is
 overkill for 16 fixed words.) The `_` arm is your existing identifier case.
 </details>
 
+## 📖 Where to look
+
+- _Crafting Interpreters_ — [§4.7 Reserved Words and Identifiers](https://craftinginterpreters.com/scanning.html#reserved-words-and-identifiers)
+  (scan the whole word first, *then* look it up — maximal munch).
+
 ## Reflection
 
 - "Maximal munch" matters here: `orchid` must be one `IDENTIFIER`, not `or` +

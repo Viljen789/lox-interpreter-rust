@@ -31,6 +31,11 @@ In a Rust `match`, you can handle several characters with one arm using `|`:
 it also does nothing yet) — in stage 11 that arm will increment a line counter.
 </details>
 
+## 📖 Where to look
+
+- _Crafting Interpreters_ — [§4.6 Longer Lexemes](https://craftinginterpreters.com/scanning.html#longer-lexemes)
+  (skipping whitespace; newlines get special treatment for line counting).
+
 ## Reflection
 
 - Your scanner now throws away whitespace and comments but keeps everything else.

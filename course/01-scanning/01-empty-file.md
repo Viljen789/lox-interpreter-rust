@@ -64,6 +64,12 @@ have one space instead of two. The format is `EOF` `<space>` `<lexeme>` `<space>
 spaces. A raw string literal makes this easy to get exactly right.
 </details>
 
+## 📖 Where to look
+
+- _Crafting Interpreters_ — [§4.1 The Interpreter Framework](https://craftinginterpreters.com/scanning.html#the-interpreter-framework)
+  and [§4.4 The Scanner Class](https://craftinginterpreters.com/scanning.html#the-scanner-class)
+  (the scan loop and the trailing EOF token).
+
 ## Reflection
 
 - Why does an interpreter bother emitting an explicit EOF token instead of just
