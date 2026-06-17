@@ -1,0 +1,5 @@
+VAR var null
+IDENTIFIER "greeting" null
+AND and null
+IDENTIFIER "farewell" null
+EOF  null

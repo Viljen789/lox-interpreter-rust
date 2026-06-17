@@ -1,0 +1,14 @@
+[package]
+name = "lox"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.95"
+
+# The course refers to the binary as `lox`, e.g. `./run.sh tokenize file.lox`.
+[[bin]]
+name = "lox"
+path = "src/main.rs"
+
+[dependencies]
+# You don't need any dependencies to build Lox. Add them here if you want to,
+# but try to reach for std first — it's a great way to learn Rust.

@@ -1,0 +1,5 @@
+IF if null
+TRUE true null
+PRINT print null
+FALSE false null
+EOF  null

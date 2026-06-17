@@ -1,0 +1,6 @@
+EQUAL = null
+COMMA , null
+EQUAL = null
+SEMICOLON ; null
+EQUAL = null
+EOF  null

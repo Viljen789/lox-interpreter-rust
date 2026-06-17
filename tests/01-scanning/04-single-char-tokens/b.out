@@ -1,0 +1,11 @@
+LEFT_PAREN ( null
+LEFT_BRACE { null
+DOT . null
+COMMA , null
+STAR * null
+MINUS - null
+SEMICOLON ; null
+PLUS + null
+RIGHT_BRACE } null
+RIGHT_PAREN ) null
+EOF  null
